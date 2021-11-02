@@ -1,0 +1,19 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(58, 17, 17);
+    width: 500px;
+    padding: 25px 15px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .post_text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }

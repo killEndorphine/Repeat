@@ -1,0 +1,17 @@
+.form {
+    padding: 25px 15px;
+    border: 2px solid rgb(58, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+  
+  .input {
+    padding: 10px 5px;
+  }
+  
+  
+  .button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }

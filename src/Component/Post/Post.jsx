@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import classes from "../Post/Post.module.css"
 
 const Post = () => {
@@ -8,7 +9,7 @@ const Post = () => {
             <input type='checkbox'/>
             <div>Текст поста</div>
         </div>
-        <button className={classes.button}>Удалить</button>
+        <Button>Удалить</Button>
     </div>
   );
 }

@@ -1,11 +1,13 @@
 import React from "react";
+import Button from "../Button/Button";
+import Input from "../Input/Input";
 import classes from "../PostForm/PostForm.module.css"
 
 const PostForm = () => {
   return (
     <form className={classes.form}>
-        <input className={classes.input} placeholder='Введите текст поста'/>
-        <button className={classes.button}>Отправить</button>
+        <Input />
+        <Button>Отправить</Button>
     </form>
   );
 }

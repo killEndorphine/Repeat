@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
-
+      
           <h1 className="h1">Список постов</h1>
 
           <form className="form">
@@ -22,10 +23,8 @@ function App() {
               <button className="button">Удалить</button>
             </div>
           </div>
-          
-      </div>
+        
     </div>
   );
 }
-
 export default App;
